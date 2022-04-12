@@ -1,0 +1,28 @@
+.third-screen {
+	display: flex;
+}
+
+.side-menu-third-screen{
+	height: 135px;
+}
+
+.red-line {
+	height: 135px;
+	background-color: #CF404D;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.red-line-header{
+	font-size: 31px;
+	font-weight: 400;
+	line-height: 36px;
+	color: white;
+}
+
+.red-line-btn:hover{
+	border: 2px solid white;
+	color:#CF404D;
+	background-color: white;
+}

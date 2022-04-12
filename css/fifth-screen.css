@@ -1,0 +1,39 @@
+.side-menu-fifth-screen{
+	height: 521px;
+}
+
+.center-menu-contact-form {
+	justify-content: flex-start;
+	height: 521px;
+	background-color: #f8f8f8;
+}
+
+.contact-form-inputs input{
+	height: 45px;
+	width: 281px;
+	border-radius: 3px;
+
+	font-family: Oswald;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+
+	padding: 0 0 0 31px;
+
+}
+.contant-form-name {
+	margin-right: 21px;
+}
+
+.contact-form-message{
+	margin-top: 17px;
+	padding: 21px 0 0 31px;
+	height: 110px;
+	width: 586px;
+	border-radius: 3px;
+	font-family: Oswald;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	resize: none;
+}

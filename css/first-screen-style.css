@@ -1,0 +1,111 @@
+.first-screen, .second-screen, .forth-screen, .fifth-screen {
+	display: flex;
+}
+.side-menu{
+	height: 800px;
+	width: 329px;
+	background-color: #2D3E4F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.side-ul-menu{
+	position: fixed;
+}
+
+.center-menu {
+	
+	height: 800px;
+	width: 1111px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.side-title {
+	color: #CF404D;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-bottom: 59px;
+
+	position: fixed;
+	top: 220px;
+}
+.side-li-menu {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.side-li-menu a{
+	transition: .2s all ease-in-out;
+}
+
+.side-li-menu a:hover{
+	color: #CF404D;
+}
+
+.link-active{
+	color: #CF404D;
+}
+.center-menu-welcome {
+	background-image: url(../img/first-screen-bg.png);
+	background-size: contain;
+
+}
+.welcome-title {
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 44px;
+	letter-spacing: 3px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+.welcome-subtitle {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	padding: 27px 0;
+	color: white;
+}
+
+.welcome-btn {
+	height: 47px;
+	width: 112px;
+	border-radius: 5px;
+	margin: 0 5px;
+
+	border: 2px solid white;
+
+	background-color: transparent;
+
+	font-family: Oswald;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+	color: white;
+	transition: .2s all ease-in-out;
+}
+
+.btn-active {
+	background-color: #CF404D;
+	border: #cf404d;
+}
+
+.welcome-btn:hover{
+	background-color: #CF404D;
+	border: #cf404d;
+}

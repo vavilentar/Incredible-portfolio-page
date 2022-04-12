@@ -1,0 +1,50 @@
+@import url(./first-screen-style.css);
+@import url(./second-screen-style.css);
+@import url(./third-screen-style.css);
+@import url(./forth-screen-style.css);
+@import url(./fifth-screen.css);
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: Oswald;
+}
+
+body, html {
+	scroll-behavior: smooth;
+}

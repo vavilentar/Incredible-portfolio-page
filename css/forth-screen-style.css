@@ -1,0 +1,10 @@
+.center-menu-ligthbox-section {
+	justify-content: flex-start;
+	height: 549px;
+}
+
+.lightbox-items-row{
+	display: flex;
+	width: 875px;
+    justify-content: space-between;
+}
